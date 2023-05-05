@@ -1,159 +1,120 @@
-
 body {
-    background-color:rgb(255, 199, 211);
-    font-family: 'Nanum Myeongjo', serif;
-    white-space: normal;
-    line-height: 1.6;
-    
-   
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Myeongjo', serif;
 }
+
+h1, h2, h3 {
+  font-family: 'Instrument Serif', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: rgb(255,182,193);
+  padding: 20px 0;
+}
+
+.header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 h1 {
-    color:rgb(196, 0, 88);
-    font-family: 'Instrument Serif', serif; 
-    font-size: 2.5rem;
-    grid-column: 1 / 13;
-    text-align: center;
-    margin-bottom: 1.5rem;
+  color: rgb(231,84,128);
+  font-size: 48px;
+  margin: 0;
+  text-align: center;
 }
 
-h2 {
-    color:rgb(34, 101, 120);
-    font-family: 'Instrument Serif', serif; 
-    font-size: 30px; 
-    text-align: center;
-    margin-bottom: 0.5rem;
+
+nav {
+  background-color: rgb(231,84,128);
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
-
-h3 {
-    color:rgb(34, 101, 120);
-    font-family: 'Instrument Serif', serif; 
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 0.5rem;
-}
-
-p {
-    color:rgb(34, 101, 120);
-    text-align: center;
-    font-size: 15px 
-  }
-
-ol {
-    color:rgb(34, 101, 120);
-    text-align: left;
-    padding: 0;
-    font-size: 15px
-     
-   } 
-
-li {
-    color:rgb(34, 101, 120);
-    text-align: left;
-    margin: 0 10px;
-    font-size: 15px 
-  }
-a:link {
-    color:rgb(31, 152, 200);
-}
-
-a:visited {
-    color:rgb(196, 0, 88); 
-}
-
-a:hover {
-    color:rgb(196, 0, 88);
-}
-
-a:active {
-    color:rgb(133, 138, 207); 
-}
-
-img {
-    width: 500px;
-}
-
-figcaption {
-    text-align: left;
-}
-
-figure {
-    text-align: left;
-    margin: 0;
-}
-  
-  header {
-    grid-area: header;
-    padding: 1rem;
-  }
-  
-  nav {
-    grid-area: nav;
-    padding: 1rem;
-    grid-column: 1 / 13;
-  }
-  
-  main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 2rem;
-  }
-  
-  footer {
-    grid-area: footer;
-    padding: 1rem;
-    text-align: left;
-  }
-  
-  nav ol {
-    gap: 1rem;
-    padding: 0.5rem;
-    font-size: 18px;
-  }
-
-  
-  figcaption {
-    font-size: 0.9rem;
-    margin-top: 0.5rem;
-    font-family: 'Nanum Myeongjo', "Times", serif;
-  }
-  
-  article {
-    margin-bottom: 1.5rem;
-  }
-
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
 
 nav ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
+  padding: 20px;
 }
 
 nav ul li {
-  margin-right: 1rem;
+  margin-bottom: 20px;
+}
+
+nav ul li a {
+  color: rgb(180,180,180);
+  font-size: 18px;
+  font-weight: bold;
 }
 
 
-.breakfast {
-  grid-column: 1 / 13;
-  width: 100%;
+main {
+  margin-left: 200px;
 }
 
-.bread,
-.pasta {
-  grid-column: span 6;
-  width: 100%;
+.container {
+  max-width: 700px;
+  margin: 60px auto;
 }
 
-p {
-  grid-column: 1 / 13;
-  margin-bottom: 1rem;
+.container h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.container h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container ol {
+  padding-left: 20px;
+}
+
+.container ol li {
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.container figure {
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+}
+
+a:link {
+  color: rgb(255,255,255)
+}
+
+a:visited {
+  color: rgb(180,180,180)
+}
+
+a:hover {
+  color: rgb(255,255,255)
+}
+
+a:active {
+  color: rgb(180,180,180)
 }
